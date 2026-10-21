@@ -1,9 +1,10 @@
-style.css /* Cores usadas na página */ 
-:root { 
---vermelho: #b30000; 
---cinza: #3a3a3a; 
---fundo: #f4f4f4; 
-    } 
+/* Cores usadas na página */ 
+:root
+{ 
+    --vermelho: #b30000; 
+    --cinza: #3a3a3a; 
+    --fundo: #f4f4f4; 
+} 
 body 
 {
     margin: 0; 
@@ -29,8 +30,8 @@ body
 }
 .cidade 
 { 
-margin-left: 10px; 
-font-size: 14px; 
+    margin-left: 10px; 
+    font-size: 14px; 
 } 
 .topo nav a 
 {  
@@ -39,7 +40,8 @@ font-size: 14px;
     margin-left: 20px; 
 } 
 /* Área principal */
-main {
+main 
+{
     max-width: 800px;
     margin: 0 auto;
     padding: 24px;
@@ -49,7 +51,6 @@ main {
     text-align: center;
     padding: 48px 16px;
 }
-
 .destaque h1 
 {
     font-size: 48px;
@@ -72,15 +73,18 @@ main {
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 } .
 cartao h2 
-    { 
+{
     color: var(--vermelho); 
-    } 
+} 
 /* Rodapé */ 
-.rodape { 
+.rodape 
+{ 
     background: var(--cinza); 
     color: white; text-align: center; 
-    padding: 16px; font-size: 14px; }
-.aviso {
+    padding: 16px; font-size: 14px; 
+}
+.aviso 
+{
     font-size: 12px;
     opacity: 0.8;
 }
